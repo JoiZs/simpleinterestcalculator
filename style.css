@@ -19,8 +19,33 @@ h1{
 .maindiv{
     background:white;
     color:black;
-    width:300px;
+    width:400px;
     padding:20px;
     border-radius: 25px;
+}
+
+.subdiv{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    padding:0 20px;
+}
+
+.lableinput{
+    width:90px;
+}
+
+button{
+    width:120px;
+    height:40px;
+    background:teal;
+    color:white;
+    border-radius:10px;
+    margin:5px;
+    border:none;
     
+}
+button:hover{
+    opacity:75%;
+
 }
